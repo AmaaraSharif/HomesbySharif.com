@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weichert | Langer Homes — Real Estate</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="Langer Homes logo" class="logo">
+        <h1>Langer Homes — Weichert Realtors</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Find your next home with Langer Homes</h2>
+        <p>Local market knowledge. Personalized service. Start your search below.</p>
+
+        <form class="search-form" id="searchForm">
+          <input type="text" id="q" placeholder="City, ZIP or neighborhood">
+          <select id="type">
+            <option value="">Any type</option>
+            <option>House</option>
+            <option>Condo</option>
+            <option>Townhouse</option>
+          </select>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h3>Featured Listings</h3>
+      <div id="featuredGrid" class="grid">
+        <!-- JS will populate -->
+      </div>
+    </section>
+
+    <section class="about-cta">
+      <div class="container">
+        <h3>Why choose Langer Homes?</h3>
+        <p>We provide expert guidance, powerful marketing, and full-service support for buyers and sellers.</p>
+        <a class="btn" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Langer Homes — Weichert Realtors. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
